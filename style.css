@@ -99,7 +99,6 @@ input {
 }
 
 .row .right {
-  height: 100vh;
   background-color: #fff;
   border-radius: 1rem;
   height: calc(100vh - 1.5rem);
@@ -171,4 +170,14 @@ label {
 }
 .submit:hover {
   background-color: #1b10bb;
+}
+
+@media screen and (max-width: 767px) {
+  .row {
+    background-color: transparent;
+  }
+  .row .right {
+    position: static;
+    transform: none;
+  }
 }

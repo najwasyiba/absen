@@ -71,14 +71,6 @@ if (isset($_POST['submit'])) {
                   <input type="text" name="kesan" class="input-field" autocomplete="off" />
                   <label>Kesan</label>
                 </div>
-                <!-- <div class="input-wrap">
-                    <input type="text" name="kesan" class="input-field" autocomplete="off" />
-                    <label>Menurutmu, Neo Telemetri itu...</label>
-                  </div> -->
-
-                <!-- <select name="" id="" class="input-wrap">
-                    <option value="">Kesan</option>
-                  </select> -->
                 <input type="submit" id="tombol" name="submit" value="Submit" class="submit" />
               </div>
             </form>
